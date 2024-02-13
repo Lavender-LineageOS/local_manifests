@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--Remotes-->
+    <remote name="lavender"             fetch="https://github.com/Lavender-LineageOS"/>
+    <remote name="dependencies"         fetch="https://github.com/Evolution-X-Devices"/>
+
+    <!--Devices Trees-->
+    <project name="device_xiaomi_lavender"          path="device/xiaomi/lavender"         remote="lavender"           revision="lineage-21.0" />
+    <project name="device_xiaomi_sdm660-common"     path="device/xiaomi/sdm660-common"    remote="lavender"           revision="lineage-21.0" />
+    
+    <!--Vendors Trees-->    
+    <project name="vendor_xiaomi_lavender"          path="vendor/samsung/lavender"        remote="dependencies"       revision="udc" />
+    <project name="vendor_xiaomi_sdm660-common"     path="vendor/samsung/sdm660-common"   remote="dependencies"       revision="udc" />
+    
+    <!--Kernel Tree-->  
+    <project name="kernel_xiaomi_lavender"          path="kernel/xiaomi/lavender"         remote="dependencies"       revision="udc" />
+    
+</manifest>
