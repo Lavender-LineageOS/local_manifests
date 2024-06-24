@@ -18,5 +18,7 @@
     <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/msm8998/display"    remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/msm8998/media"      remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/msm8998/audio"      remote="orga"/>
+    
+    <project name="LineageOS/android_hardware_xiaomi"   path="hardware/xiaomi"                      remote="github"/>
 
 </manifest>
