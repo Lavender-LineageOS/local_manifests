@@ -12,7 +12,7 @@
     <!--Devices Trees-->
     <project name="device_xiaomi_lavender"              path="device/xiaomi/lavender"               remote="orga"/>
     <project name="vendor_xiaomi_lavender"              path="vendor/xiaomi/lavender"               remote="orga"/>
-    <project name="kernel_xiaomi_lavender"              path="kernel/xiaomi/lavender"               remote="orga">
+    <project name="kernel_xiaomi_lavender"              path="kernel/xiaomi/lavender"               remote="orga"/>
     
     <!-- Hardware dependencies -->
     <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/msm8998/display"    remote="orga"/>
