@@ -3,6 +3,7 @@
 
     <!--Remotes-->
     <remote name="orga"         fetch="https://github.com/Lavender-LineageOS"       revision="lineage-21.0"/>
+    <remote name="los"          fetch="https://github.com/LineageOS"                revision="lineage-21"/>
 
     <!-- Remove HAL's -->
     <remove-project name="LineageOS/android_hardware_qcom_display" />
@@ -18,5 +19,6 @@
     <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/msm8998/display"    remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/msm8998/media"      remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/msm8998/audio"      remote="orga"/>
+    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                      remote="los"/>
 
 </manifest>
