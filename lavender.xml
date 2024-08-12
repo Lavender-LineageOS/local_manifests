@@ -21,4 +21,7 @@
     <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/msm8998/audio"      remote="orga"/>
     <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                      remote="los"/>
 
+    <!-- Dolby Atmos -->
+    <project name="userariii/vendor_motorola-dolby"     path="vendor/motorola-dolby"                remote="github"         revision="v1.2"  />
+
 </manifest>
